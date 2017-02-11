@@ -1,0 +1,5 @@
+java -h - opcje u¿ycia komendy java
+java -help pomoc
+javac -help pomoc
+jar -h - pomoc opcji kompilacji jar
+-classpath wybieranie sciezki do klasy

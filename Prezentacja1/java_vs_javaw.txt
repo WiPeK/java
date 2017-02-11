@@ -1,0 +1,2 @@
+java - program musi siê wykonaæ aby mo¿na by³o u¿ywaæ konsoli
+javaw - w trakcie trwania programu mo¿emy u¿ywaæ konsoli
