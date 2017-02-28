@@ -13,7 +13,7 @@
       <TextField fx:id="ipTextBox" layoutX="598.0" layoutY="24.0" text="127.0.0.1" />
       <Label layoutX="547.0" layoutY="62.0" text="PORT:" />
       <TextField fx:id="portTextBox" layoutX="598.0" layoutY="58.0" text="5432" />
-      <Button fx:id="connectButon" layoutX="695.0" layoutY="132.0" mnemonicParsing="false" onAction="#connectButtonAction" text="Połącz" />
+      <Button fx:id="connectButton" layoutX="695.0" layoutY="132.0" mnemonicParsing="false" onAction="#connectButtonAction" text="Połącz" />
       <Label layoutX="547.0" layoutY="136.0" text="Status:" />
       <TextArea fx:id="messageTextArea" layoutX="14.0" layoutY="563.0" prefHeight="166.0" prefWidth="529.0" />
       <Button fx:id="sendMessageButton" layoutX="549.0" layoutY="661.0" mnemonicParsing="false" onAction="#sendMessageButtonAction" prefHeight="68.0" prefWidth="194.0" text="Wyślij">
@@ -25,7 +25,7 @@
       <TextField fx:id="nickTextBox" layoutX="598.0" layoutY="93.0" />
       <Label layoutX="546.0" layoutY="200.0" text="PORT:" />
       <TextField fx:id="serverPortTextBox" layoutX="597.0" layoutY="196.0" text="5432" />
-      <Button fx:id="launchServerButon" layoutX="648.0" layoutY="227.0" mnemonicParsing="false" onAction="#launchServerButtonAction" text="Otwórz dostęp" />
-      <TextField fx:id="mesageTextField" layoutX="14.0" layoutY="24.0" prefHeight="123.0" prefWidth="411.0" />
+      <Button fx:id="launchServerButton" layoutX="648.0" layoutY="227.0" mnemonicParsing="false" onAction="#launchServerButtonAction" text="Otwórz dostęp" />
+      <TextArea fx:id="receivedMessageTextArea" layoutX="14.0" layoutY="24.0" prefHeight="527.0" prefWidth="529.0" />
    </children>
 </AnchorPane>
